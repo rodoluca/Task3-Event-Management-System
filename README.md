@@ -22,17 +22,17 @@ d) The FOREIGN KEY constraint in the Registrations table references the Event_Id
 ### 2.Data Creation
 a) Insert some sample data for Events, Attendees, and Registrations tables with respective fields.
 
-### 3. Manage Event Details
+### 3.Manage Event Details
 a) Inserting a new event.
 
 b) Updating an event's information.
 
 c) Deleting an event.
 
-### 4) Manage Track Attendees & Handle Events
+### 4.Manage Track Attendees & Handle Events
 a) Inserting a new attendee.
 
 b) Registering an attendee for an event.
 
-### 5) Develop queries to retrieve event information
+### 5.Develop queries to retrieve event information
 a) Generate attendee lists, and calculate event attendance statistics.
