@@ -93,6 +93,19 @@ WHERE
 DELETE FROM Registrations WHERE Event_Id = 3;
 DELETE FROM Events WHERE Event_Id = 3;
 
+--4.Manage Track Attendees & Handle Events
+--a) inserting a new attendee.
+INSERT INTO Attendees (Attendee_Id, Attendee_Name, Attendee_Phone, Attendee_Email, Attendee_City)
+VALUES
+	(5, 'Name5', '55555555555', 'name5@email.com', 'City 5')
+;
+
+--b) registering an attendee for an event.
+INSERT INTO Registrations (Registration_Id, Event_Id, Attendee_Id, Registration_Date, Registration_Amount)
+VALUES
+	(11, 2, 5, '2024-11-30', 200.00)
+;
+
 --5.Develop queries to retrieve event information
 --a) generating attendee lists, and calculate event attendance statistics.
 
